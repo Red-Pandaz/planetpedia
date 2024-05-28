@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Planet Manager</h1>
+        <form id="planet-form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="type" placeholder="Type" required>
+            <input type="number" id="diameter" placeholder="Diameter" required>
+            <input type="text" id="distance" placeholder="Distance" required>
+            <input type="number" id="mass" placeholder="Mass" required>
+            <input type="text" id="position" placeholder="Position" required>
+            <input type="number" id="numberofMoons" placeholder="Number of Moons" required>
+            <input type="number" id="orbitalPeriod" placeholder="Orbital Period" required>
+            <input type="number" id="dayLength" placeholder="Day Length" required>
+            <input type="text" id="confirmedLife" placeholder="Confirmed Life" required>
+            <input type="text" id="yearDiscovered" placeholder="Year Discovered" required>
+            <input type="text" id="url" placeholder="Image URL" required>
+            <button type="submit">Save Planet</button>
+        </form>
+        <div id="planets-list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
